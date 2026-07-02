@@ -1,0 +1,23 @@
+name: logrotate
+on:
+  schedule:
+    - cron: "23 2 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/update-readme.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: |
+          git config user.name "rachit367"
+          git config user.email "rachit367@gmail.com"
+          git add README.md
+          git diff --cached --quiet || (git commit -m "logrotate: refresh open-source log" && git push)
