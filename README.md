@@ -55,22 +55,15 @@ more in review at **payload**, **sourcebot**, **hyperdx**, **tooljet**, **newman
   <img src="https://skillicons.dev/icons?i=js,ts,python,cpp,nodejs,express,fastapi,react,mongodb,postgres,mysql,redis,docker,nginx,linux,git,githubactions,cloudflare&perline=9" />
 </div>
 
-### `$ htop`
+### `$ crontab -l`
 
-<div align="center">
-  <img height="170" src="https://github-readme-stats.hackclub.dev/api?username=rachit367&show_icons=true&include_all_commits=true&bg_color=0d1117&border_color=30363d&title_color=39d353&icon_color=39d353&text_color=c9d1d9" />
-  <img height="170" src="https://github-readme-stats.hackclub.dev/api/top-langs/?username=rachit367&layout=compact&langs_count=8&hide=html,css,ejs&bg_color=0d1117&border_color=30363d&title_color=39d353&text_color=c9d1d9" />
-</div>
-
-### `$ watch -n 43200 contributions`
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rachit367/rachit367/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rachit367/rachit367/output/github-contribution-grid-snake.svg" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/rachit367/rachit367/output/github-contribution-grid-snake.svg" />
-  </picture>
-</div>
+```console
+0 6 * * *     pull upstream, read the diff, learn something
+*/15 * * * *  glance at the P95 latency dashboard
+0 22 * * *    one leetcode problem before shutdown
+0 0 * * 0     ship at least one PR to open source
+@reboot       replay the last production incident in my head
+```
 
 ### `$ curl -X POST https://rachit.dev/contact`
 
