@@ -34,16 +34,16 @@ Last login: Thu Jul  2 09:41:07 2026 from IIIT-Kota, Rajasthan, IN
 <!-- oss-log:start -->
 | log | PR | what shipped |
 | :--- | :--- | :--- |
+| `2026-07-03 [merged]` | [hyperdx#2575](https://github.com/hyperdxio/hyperdx/pull/2575) | fix(app): keep trace waterfall span widths proportional when zoomed |
 | `2026-06-29 [merged]` | [pipeshub-ai#2606](https://github.com/pipeshub-ai/pipeshub-ai/pull/2606) | fix(python): install etcd3 from maintained fork for protobuf 4 compat |
 | `2026-06-24 [merged]` | [better-auth#10198](https://github.com/better-auth/better-auth/pull/10198) | fix: honor disableMigration on plugin schema tables |
 | `2026-06-23 [merged]` | [mastra#18350](https://github.com/mastra-ai/mastra/pull/18350) | fix(chroma): return per-metric similarity score from query() |
 | `2026-06-20 [merged]` | [flowsint#182](https://github.com/reconurge/flowsint/pull/182) | feat(enrichers): add domain_to_dns enricher using dnsx |
-| `2026-06-20 [merged]` | [flowsint#183](https://github.com/reconurge/flowsint/pull/183) | feat(types,enrichers): add Technology type and tech_detect transformer |
 
 ```console
 $ wc -l /var/log/open-source.log*
-  9 merged upstream
-  19 in review at hyperdx · sourcebot · pipeshub-ai · flowsint · payload · typesense-js · newman · razorpay-node · ToolJet
+  10 merged upstream
+  18 in review at hyperdx · sourcebot · pipeshub-ai · flowsint · payload · typesense-js · newman · razorpay-node · ToolJet
 ```
 
 <details>
@@ -51,6 +51,7 @@ $ wc -l /var/log/open-source.log*
 
 | log | PR | what shipped |
 | :--- | :--- | :--- |
+| `2026-06-20 [merged]` | [flowsint#183](https://github.com/reconurge/flowsint/pull/183) | feat(types,enrichers): add Technology type and tech_detect transformer |
 | `2026-06-20 [merged]` | [flowsint#185](https://github.com/reconurge/flowsint/pull/185) | feat(types): detect MD5/SHA1/SHA256 file hashes on import |
 | `2026-06-20 [merged]` | [pipeshub-ai#2517](https://github.com/pipeshub-ai/pipeshub-ai/pull/2517) | feat(frontend): add zoom level lock to document preview |
 | `2026-06-14 [merged]` | [pipeshub-ai#2506](https://github.com/pipeshub-ai/pipeshub-ai/pull/2506) | fix(backend): pin uuid to ^11.1.0 for CommonJS compatibility |
@@ -58,7 +59,6 @@ $ wc -l /var/log/open-source.log*
 
 | log | PR | in review |
 | :--- | :--- | :--- |
-| `2026-07-02 [open]` | [hyperdx#2575](https://github.com/hyperdxio/hyperdx/pull/2575) | fix(app): keep trace waterfall span widths proportional when zoomed |
 | `2026-07-02 [open]` | [hyperdx#2574](https://github.com/hyperdxio/hyperdx/pull/2574) | fix(app): prevent dashboard edits from clobbering each other |
 | `2026-07-02 [open]` | [sourcebot#1417](https://github.com/sourcebot-dev/sourcebot/pull/1417) | fix(web): scope file-search recents by revision |
 | `2026-07-02 [open]` | [sourcebot#1416](https://github.com/sourcebot-dev/sourcebot/pull/1416) | fix(backend): don't crash Gitea sync when a repo fetch returns a null body |
