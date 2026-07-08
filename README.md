@@ -43,7 +43,7 @@ Last login: Thu Jul  2 09:41:07 2026 from IIIT-Kota, Rajasthan, IN
 ```console
 $ wc -l /var/log/open-source.log*
   10 merged upstream
-  18 in review at hyperdx · sourcebot · pipeshub-ai · flowsint · payload · typesense-js · newman · razorpay-node · ToolJet
+  17 in review at hyperdx · sourcebot · pipeshub-ai · flowsint · payload · typesense-js · newman · razorpay-node · ToolJet
 ```
 
 <details>
@@ -61,7 +61,6 @@ $ wc -l /var/log/open-source.log*
 | :--- | :--- | :--- |
 | `2026-07-02 [open]` | [hyperdx#2574](https://github.com/hyperdxio/hyperdx/pull/2574) | fix(app): prevent dashboard edits from clobbering each other |
 | `2026-07-02 [open]` | [sourcebot#1417](https://github.com/sourcebot-dev/sourcebot/pull/1417) | fix(web): scope file-search recents by revision |
-| `2026-07-02 [open]` | [sourcebot#1416](https://github.com/sourcebot-dev/sourcebot/pull/1416) | fix(backend): don't crash Gitea sync when a repo fetch returns a null body |
 | `2026-06-23 [open]` | [sourcebot#1362](https://github.com/sourcebot-dev/sourcebot/pull/1362) | fix(web): return graceful error for unknown search context |
 | `2026-06-14 [open]` | [pipeshub-ai#2531](https://github.com/pipeshub-ai/pipeshub-ai/pull/2531) | fix(indexing): stop dropping the first table data row in LLM enhancement |
 | `2026-06-09 [open]` | [pipeshub-ai#2508](https://github.com/pipeshub-ai/pipeshub-ai/pull/2508) | feat(indexing): add JSON document parser |
