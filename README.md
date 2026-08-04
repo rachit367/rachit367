@@ -43,7 +43,7 @@ Last login: Thu Jul  2 09:41:07 2026 from IIIT-Kota, Rajasthan, IN
 ```console
 $ wc -l /var/log/open-source.log*
   11 merged upstream
-  16 in review at hyperdx · sourcebot · pipeshub-ai · flowsint · payload · typesense-js · newman · razorpay-node · ToolJet
+  15 in review at hyperdx · sourcebot · flowsint · payload · typesense-js · newman · razorpay-node · ToolJet
 ```
 
 <details>
@@ -63,7 +63,6 @@ $ wc -l /var/log/open-source.log*
 | `2026-07-02 [open]` | [hyperdx#2574](https://github.com/hyperdxio/hyperdx/pull/2574) | fix(app): prevent dashboard edits from clobbering each other |
 | `2026-07-02 [open]` | [sourcebot#1417](https://github.com/sourcebot-dev/sourcebot/pull/1417) | fix(web): scope file-search recents by revision |
 | `2026-06-23 [open]` | [sourcebot#1362](https://github.com/sourcebot-dev/sourcebot/pull/1362) | fix(web): return graceful error for unknown search context |
-| `2026-06-14 [open]` | [pipeshub-ai#2531](https://github.com/pipeshub-ai/pipeshub-ai/pull/2531) | fix(indexing): stop dropping the first table data row in LLM enhancement |
 | `2026-06-09 [open]` | [flowsint#186](https://github.com/reconurge/flowsint/pull/186) | feat(enrichers): make domain_to_website extractions opt-out |
 | `2026-06-09 [open]` | [flowsint#184](https://github.com/reconurge/flowsint/pull/184) | feat(imports): add nmap XML importer |
 | `2026-05-19 [open]` | [payload#16676](https://github.com/payloadcms/payload/pull/16676) | fix: write per-locale values from siblingData when req.locale is 'all' |
