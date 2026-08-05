@@ -34,16 +34,16 @@ Last login: Thu Jul  2 09:41:07 2026 from IIIT-Kota, Rajasthan, IN
 <!-- oss-log:start -->
 | log | PR | what shipped |
 | :--- | :--- | :--- |
+| `2026-08-04 [merged]` | [sourcebot#1362](https://github.com/sourcebot-dev/sourcebot/pull/1362) | fix(web): return graceful error for unknown search context |
 | `2026-07-12 [merged]` | [AssetFlow-TeamX-Odoo#15](https://github.com/samartiwari/AssetFlow-TeamX-Odoo/pull/15) | feature/audit |
 | `2026-07-03 [merged]` | [hyperdx#2575](https://github.com/hyperdxio/hyperdx/pull/2575) | fix(app): keep trace waterfall span widths proportional when zoomed |
 | `2026-06-29 [merged]` | [pipeshub-ai#2606](https://github.com/pipeshub-ai/pipeshub-ai/pull/2606) | fix(python): install etcd3 from maintained fork for protobuf 4 compat |
 | `2026-06-24 [merged]` | [better-auth#10198](https://github.com/better-auth/better-auth/pull/10198) | fix: honor disableMigration on plugin schema tables |
-| `2026-06-23 [merged]` | [mastra#18350](https://github.com/mastra-ai/mastra/pull/18350) | fix(chroma): return per-metric similarity score from query() |
 
 ```console
 $ wc -l /var/log/open-source.log*
-  11 merged upstream
-  15 in review at hyperdx · sourcebot · flowsint · payload · typesense-js · newman · razorpay-node · ToolJet
+  12 merged upstream
+  13 in review at hyperdx · flowsint · payload · typesense-js · newman · razorpay-node · ToolJet
 ```
 
 <details>
@@ -51,6 +51,7 @@ $ wc -l /var/log/open-source.log*
 
 | log | PR | what shipped |
 | :--- | :--- | :--- |
+| `2026-06-23 [merged]` | [mastra#18350](https://github.com/mastra-ai/mastra/pull/18350) | fix(chroma): return per-metric similarity score from query() |
 | `2026-06-20 [merged]` | [flowsint#182](https://github.com/reconurge/flowsint/pull/182) | feat(enrichers): add domain_to_dns enricher using dnsx |
 | `2026-06-20 [merged]` | [flowsint#183](https://github.com/reconurge/flowsint/pull/183) | feat(types,enrichers): add Technology type and tech_detect transformer |
 | `2026-06-20 [merged]` | [flowsint#185](https://github.com/reconurge/flowsint/pull/185) | feat(types): detect MD5/SHA1/SHA256 file hashes on import |
@@ -61,8 +62,6 @@ $ wc -l /var/log/open-source.log*
 | log | PR | in review |
 | :--- | :--- | :--- |
 | `2026-07-02 [open]` | [hyperdx#2574](https://github.com/hyperdxio/hyperdx/pull/2574) | fix(app): prevent dashboard edits from clobbering each other |
-| `2026-07-02 [open]` | [sourcebot#1417](https://github.com/sourcebot-dev/sourcebot/pull/1417) | fix(web): scope file-search recents by revision |
-| `2026-06-23 [open]` | [sourcebot#1362](https://github.com/sourcebot-dev/sourcebot/pull/1362) | fix(web): return graceful error for unknown search context |
 | `2026-06-09 [open]` | [flowsint#186](https://github.com/reconurge/flowsint/pull/186) | feat(enrichers): make domain_to_website extractions opt-out |
 | `2026-06-09 [open]` | [flowsint#184](https://github.com/reconurge/flowsint/pull/184) | feat(imports): add nmap XML importer |
 | `2026-05-19 [open]` | [payload#16676](https://github.com/payloadcms/payload/pull/16676) | fix: write per-locale values from siblingData when req.locale is 'all' |
