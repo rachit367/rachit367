@@ -43,7 +43,7 @@ Last login: Thu Jul  2 09:41:07 2026 from IIIT-Kota, Rajasthan, IN
 ```console
 $ wc -l /var/log/open-source.log*
   12 merged upstream
-  13 in review at hyperdx · flowsint · payload · typesense-js · newman · razorpay-node · ToolJet
+  12 in review at flowsint · payload · typesense-js · newman · razorpay-node · ToolJet
 ```
 
 <details>
@@ -61,7 +61,6 @@ $ wc -l /var/log/open-source.log*
 
 | log | PR | in review |
 | :--- | :--- | :--- |
-| `2026-07-02 [open]` | [hyperdx#2574](https://github.com/hyperdxio/hyperdx/pull/2574) | fix(app): prevent dashboard edits from clobbering each other |
 | `2026-06-09 [open]` | [flowsint#186](https://github.com/reconurge/flowsint/pull/186) | feat(enrichers): make domain_to_website extractions opt-out |
 | `2026-06-09 [open]` | [flowsint#184](https://github.com/reconurge/flowsint/pull/184) | feat(imports): add nmap XML importer |
 | `2026-05-19 [open]` | [payload#16676](https://github.com/payloadcms/payload/pull/16676) | fix: write per-locale values from siblingData when req.locale is 'all' |
