@@ -38,7 +38,7 @@ Last login: Thu Jul  2 09:41:07 2026 from IIIT-Kota, Rajasthan, IN
 | `2026-10-31 [merged]` | [gyanama-website#7](https://github.com/gyanama/gyanama-website/pull/7) | Redesign the website on Next.js 16 with 13 new pages |
 | `2026-08-04 [merged]` | [sourcebot#1362](https://github.com/sourcebot-dev/sourcebot/pull/1362) | fix(web): return graceful error for unknown search context |
 | `2026-07-12 [merged]` | [AssetFlow-TeamX-Odoo#15](https://github.com/samartiwari/AssetFlow-TeamX-Odoo/pull/15) | feature/audit |
-| `2026-07-03 [merged]` | [hyperdx#2575](https://github.com/hyperdxio/hyperdx/pull/2575) | fix(app): keep trace waterfall span widths proportional when zoomed |
+| `2026-07-03 [merged]` | [ClickStack#2575](https://github.com/ClickHouse/ClickStack/pull/2575) | fix(app): keep trace waterfall span widths proportional when zoomed |
 
 ```console
 $ wc -l /var/log/open-source.log*
